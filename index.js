@@ -1,6 +1,3 @@
-
-import { NativeModules } from 'react-native';
-
-const { RNVibrationFeedback } = NativeModules;
+import RNVibrationFeedback from './src/NativeVibrationFeedback';
 
 export default RNVibrationFeedback;

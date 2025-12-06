@@ -1,18 +1,38 @@
 
 {
-  "name": "react-native-vibration-feedback",
-  "version": "1.0.0",
+  "name": "@react-native-ohos/react-native-vibration-feedback",
+  "version": "1.0.1-rc.1",
   "description": "",
   "main": "index.js",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/react-native-oh-library/react-native-vibration_feedback.git"
+	},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen-lib": "react-native codegen-lib-harmony --no-safety-check --npm-package-name react-native-vibration-feedback --cpp-output-path ./harmony/vibration_feedback/src/main/cpp/generated --ets-output-path ./harmony/vibration_feedback/src/main/ets/generated --turbo-modules-spec-paths ./src/NativeVibrationFeedback.ts"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "keywords": [
     "react-native"
   ],
   "author": "",
   "license": "",
+  "bugs": {
+		"url": "https://github.com/react-native-oh-library/react-native-vibration-feedback/issues"
+	},
+	"harmony": {
+		"alias": "react-native-vibration-feedback"
+	},
+	"homepage": "https://github.com/react-native-oh-library/react-native-vibration-feedback",
   "peerDependencies": {
     "react-native": "^0.41.2"
+  },
+  "dependencies": {
+    "@react-native-community/cli": "11.4.1",
+    "react-native-harmony-cli": "npm:@react-native-oh/react-native-harmony-cli@^0.0.37"
   }
 }
