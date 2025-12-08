@@ -1,6 +1,6 @@
 # @react-native-ohos/react-native-vibration-feedback
 
-This project is based on [react-native-vibration-feedback](https://github.com/react-native-oh-library/react-native-vibration-feedback)
+This project is based on [react-native-vibration-feedback](https://github.com/nascimentorafael/react-native-vibration-feedback)
 
 ## Documentation
 
@@ -10,4 +10,4 @@ This project is based on [react-native-vibration-feedback](https://github.com/re
 
 ## License
 
-This library is licensed under []()
+This library is licensed under [Apache License 2.0](https://github.com/react-native-oh-library/react-native-vibration-feedback/blob/sig/LICENSE).

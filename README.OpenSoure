@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-vibration-feedback",
+        "License": "Apache-2.0 license",
+        "License File": "LICENSE",
+        "Version Number": "1.0.0",
+        "Owner" : "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/nascimentorafael/react-native-vibration-feedback",
+        "Description": "Vibration feedback for React Native applications."
+    }
+]
