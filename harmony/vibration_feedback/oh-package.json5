@@ -1,0 +1,11 @@
+{
+  "name": "@react-native-ohos/react-native-vibration-feedback",
+  "version": "1.0.1-rc.1",
+  "description": "Vibration feedback for React Native applications on HarmonyOS",
+  "main": "Index.ets",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@rnoh/react-native-openharmony": "0.72.90"
+  },
+}

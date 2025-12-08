@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "vibration_feedback",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ]
+  }
+}
