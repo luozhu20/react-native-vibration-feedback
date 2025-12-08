@@ -4,7 +4,7 @@
   "description": "Vibration feedback for React Native applications on HarmonyOS",
   "main": "Index.ets",
   "author": "",
-  "license": "",
+  "license": "Apache License 2.0",
   "dependencies": {
     "@rnoh/react-native-openharmony": "0.72.90"
   },
